@@ -95,18 +95,24 @@ python preprocess.py
 # 1. Load user-wallet-transactions.json
 # 2. Engineer features for each wallet
 # 3. Calculate credit scores
-# 4. Generate wallet_credit_scores.csv
+# 4. Generate output/wallet_credit_scores.csv
 ```
 
 ### File Structure
 ```
-├── explore.py              # Main scoring system
-├── models.ipynb           # ML model validation
-├── plots.ipynb            # Data visualization
-├── user-wallet-transactions.json  # Input data
-├── wallet_credit_scores.csv       # Output results
-├── ml_model_results.csv           # Model performance
-└── feature_importance.csv         # Feature rankings
+├── preprocess.py                   # Main scoring system
+├── models.ipynb                   # ML model validation
+├── plots.ipynb                    # Data visualization
+├── requirements.txt               # Python dependencies
+├── analysis.md                    # Analysis documentation
+├── output/                        # Generated results directory
+│   ├── wallet_credit_scores.csv   # Credit scores output
+│   ├── ml_model_results.csv       # Model performance metrics
+│   ├── feature_importance.csv     # Feature ranking analysis
+│   ├── credit_score_hist_seaborn.png         # Score distribution plot
+│   ├── correlation_heatmap_seaborn.png       # Feature correlation heatmap
+│   └── credit_score_pred_scatter_seaborn.png # Prediction accuracy plot
+└── .gitignore                     # Ignored files
 ```
 
 

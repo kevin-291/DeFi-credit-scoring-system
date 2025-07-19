@@ -34,7 +34,7 @@
 
 ### Credit Score Distribution
 
-![image info](credit_score_hist_seaborn.png)
+![image info](output/credit_score_hist_seaborn.png)
 
 ## High-Risk Wallet Characteristics
 

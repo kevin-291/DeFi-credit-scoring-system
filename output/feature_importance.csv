@@ -1,0 +1,11 @@
+feature,importance
+repay_to_borrow_ratio,26.458084252206437
+has_borrowed,25.15176952117623
+has_repaid,18.24039066363118
+days_active,14.001551152114317
+total_transactions,6.556909295750234
+deposit_to_borrow_ratio,4.327451952397118
+unique_assets,3.6326131141041724
+total_volume_usd,0.8927206230619987
+liquidation_ratio,0.6533418201275528
+has_been_liquidated,0.08516760543074352

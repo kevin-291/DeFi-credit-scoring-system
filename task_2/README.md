@@ -91,7 +91,7 @@ Risk Score = (
 - **601-800**: High Risk - Suspicious patterns warrant investigation
 - **801-1000**: Critical Risk - Immediate review recommended
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
